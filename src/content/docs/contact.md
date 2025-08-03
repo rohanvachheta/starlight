@@ -7,7 +7,7 @@ description: Contact Rohan Vachheta for collaborations, opportunities, and discu
 
 I'm always excited to connect with fellow developers, potential collaborators, clients, and anyone interested in technology. Whether you want to discuss a project, share ideas, or just chat about the latest in tech, I'd love to hear from you!
 
-## 📬 Contact Information
+## Contact Information
 
 ### Professional Inquiries
 - **Email**: [rohan.vachheta@example.com](mailto:rohan.vachheta@example.com)
@@ -22,7 +22,7 @@ I'm always excited to connect with fellow developers, potential collaborators, c
 
 ---
 
-## 💼 What I'm Looking For
+## What I'm Looking For
 
 ### Freelance & Contract Work
 I'm available for:
@@ -50,7 +50,7 @@ I'm open to discussing:
 
 ---
 
-## 🚀 Let's Work Together
+## Let's Work Together
 
 <div class="contact-form">
 

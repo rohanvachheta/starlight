@@ -7,7 +7,7 @@ description: Showcase of Rohan Vachheta's best work and notable projects
 
 Here are some of my most notable projects that demonstrate my skills and experience across different technologies and domains.
 
-## 🚀 E-Commerce Platform - "ShopFlow"
+## E-Commerce Platform - "ShopFlow"
 
 <div class="project-card">
 
@@ -46,7 +46,7 @@ A comprehensive e-commerce platform built for a mid-sized retail company, servin
 
 </div>
 
-## 📊 Real-time Analytics Dashboard - "DataViz Pro"
+## Real-time Analytics Dashboard - "DataViz Pro"
 
 <div class="project-card">
 
@@ -85,7 +85,7 @@ A business intelligence dashboard providing real-time analytics and data visuali
 
 </div>
 
-## 🤖 AI-Powered Chat Application - "ChatGenius"
+## AI-Powered Chat Application - "ChatGenius"
 
 <div class="project-card">
 
@@ -124,7 +124,7 @@ An intelligent chat application with natural language processing capabilities, r
 
 </div>
 
-## 📱 Task Management Mobile App - "TaskFlow"
+## Task Management Mobile App - "TaskFlow"
 
 <div class="project-card">
 
@@ -162,7 +162,7 @@ A cross-platform mobile application for project and task management, designed fo
 
 </div>
 
-## 🏠 Property Management System - "PropManager"
+## Property Management System - "PropManager"
 
 <div class="project-card">
 
@@ -200,7 +200,7 @@ A comprehensive property management system for real estate companies, handling p
 
 </div>
 
-## 🎓 Learning Management System - "EduPlatform"
+## Learning Management System - "EduPlatform"
 
 <div class="project-card">
 
