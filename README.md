@@ -1,53 +1,87 @@
-# Starlight Starter Kit: Basics
+# Rohan Vachheta - Portfolio Website
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+A modern, professional portfolio website built with [Astro](https://astro.build/) and [Starlight](https://starlight.astro.build/), showcasing my work as a Full Stack Software Developer.
 
-```
-npm create astro@latest -- --template starlight
-```
+## 🚀 Features
 
-<!-- ASTRO:REMOVE:START -->
+- **Modern Design**: Clean, professional layout with responsive design
+- **Performance Optimized**: Built with Astro for fast loading times
+- **SEO Friendly**: Optimized for search engines with proper meta tags
+- **Accessibility**: WCAG compliant with keyboard navigation support
+- **Dark/Light Mode**: Automatic theme switching based on user preference
+- **Analytics Integration**: Google Analytics and Tag Manager implementation
+- **Mobile First**: Fully responsive design for all devices
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/starlight/tree/main/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/starlight/tree/main/examples/basics)
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/withastro/starlight&create_from_path=examples/basics)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwithastro%2Fstarlight%2Ftree%2Fmain%2Fexamples%2Fbasics&project-name=my-starlight-docs&repository-name=my-starlight-docs)
-
-<!-- ASTRO:REMOVE:END -->
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+## 📁 Structure
 
 ```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+src/
+├── components/
+│   ├── Head.astro          # Custom head component with analytics
+│   └── Hero.astro          # Custom hero component
+├── content/
+│   └── docs/
+│       ├── about/          # About me sections
+│       │   ├── intro.md    # Introduction
+│       │   ├── experience.md # Professional experience
+│       │   └── skills.md   # Skills and technologies
+│       ├── projects/       # Project showcases
+│       │   ├── featured.md # Featured projects
+│       │   ├── web-apps.md # Web applications
+│       │   └── open-source.md # Open source contributions
+│       ├── blog/          # Technical content
+│       │   ├── technical.md # Technical articles
+│       │   └── tutorials.md # Tutorials and guides
+│       ├── contact.md     # Contact information
+│       └── index.mdx      # Homepage
+├── styles/
+│   └── portfolio.css      # Custom styling
+└── assets/
+    └── rohan-profile.webp # Profile image
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+## 🛠️ Technologies Used
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+- **Framework**: [Astro](https://astro.build/) - Modern static site generator
+- **Theme**: [Starlight](https://starlight.astro.build/) - Documentation theme adapted for portfolio
+- **Styling**: Custom CSS with modern features (Grid, Flexbox, Custom Properties)
+- **Analytics**: Google Analytics 4 and Google Tag Manager
+- **Deployment**: Optimized for Netlify, Vercel, or any static hosting
 
-Static assets, like favicons, can be placed in the `public/` directory.
+## 🚦 Getting Started
 
-## 🧞 Commands
+### Prerequisites
 
-All commands are run from the root of the project, from a terminal:
+- Node.js (v18 or higher)
+- npm or yarn package manager
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/rohanvachheta/portfolio.git
+cd portfolio
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:4321](http://localhost:4321) in your browser
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+The built site will be in the `dist/` directory, ready for deployment.
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
